@@ -67,9 +67,7 @@ body{
     display: grid;
     grid-template-rows: 10vh 1fr;
     height: 100vh;
-    background-image: url(../img/um-por-do-sol-rosa-com-palmeiras-no-horizonte_654523-31.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
+ 
 }   
 
 header{
@@ -89,7 +87,6 @@ main{
     justify-content: center;
     padding: 0.5rem 1.5rem 2rem 1.5rem;
     border-radius: 2rem 2rem 0 0;
-    background-color: black;
     margin-top: calc(15vh + 1.5rem);
 }
 
@@ -152,7 +149,7 @@ main form fieldset div label{
 }
 
 main form fieldset div input{
-    color: #000;
+    color: black;
     font-weight: 600;
     font-size: 0.875rem;
 }
@@ -172,7 +169,7 @@ main form fieldset div:not(:first-child)::after{
     padding-block: 1rem;
     background-color: var(--branco);
     border-radius: 0.5rem;
-    color: var(--laranja);
+    color: black;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.25rem;

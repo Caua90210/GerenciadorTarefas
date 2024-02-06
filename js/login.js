@@ -21,7 +21,7 @@ const verificarLogin = () => {
     if(email && senha){
         if(email == validacaoEmail && senha == validacaoSenha){
             localStorage.setItem('login', 'true')
-            window.location.href = './home.html'
+            window.location.href = './tarefas.html'
         }
         else
         alert('Email e/ou senha incorreto(s)')
@@ -36,7 +36,7 @@ window.addEventListener('load', () => {
     if(login == 'true'){
 
         console.log('opa')
-        window.location.href = './home.html'
+        window.location.href = './login.html'
 
     }
 
